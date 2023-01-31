@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace MyDiecast.Api.Identity.Entities {
+namespace MyDiecast.Api.Data.Entities {
   public class AspRole : IdentityRole<Guid> { }
 }

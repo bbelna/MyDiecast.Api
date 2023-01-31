@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using MyDiecast.Api.Identity.Entities;
+using MyDiecast.Api.Data.Entities;
 
-namespace MyDiecast.Api.Identity.Managers {
+namespace MyDiecast.Api.Managers {
   public class AspRoleManager : RoleManager<AspRole> {
     public AspRoleManager(
       IRoleStore<AspRole> store,

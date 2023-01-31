@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
-using MyDiecast.Api.Identity.Entities;
+using MyDiecast.Api.Data.Entities;
 
-namespace MyDiecast.Api.Identity.Managers {
+namespace MyDiecast.Api.Managers {
   public class AspSignInManager : SignInManager<AspUser> {
     public AspSignInManager(
       UserManager<AspUser> userManager,

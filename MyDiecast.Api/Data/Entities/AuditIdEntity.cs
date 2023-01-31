@@ -1,4 +1,4 @@
-﻿namespace MyDiecast.Api.Data {
+﻿namespace MyDiecast.Api.Data.Entities {
   public class AuditIdEntity<T> : IdEntity<T> {
     public T LastModifiedBy { get; set; }
     public DateTime LastModifiedOn { get; set; }

@@ -1,6 +1,4 @@
-﻿using MyDiecast.Api.Data;
-
-namespace MyDiecast.Api.Diecast.Entities {
+﻿namespace MyDiecast.Api.Data.Entities {
   public class DiecastMake : AuditIdEntity<Guid> {
     public string Name { get; set; }
   }
